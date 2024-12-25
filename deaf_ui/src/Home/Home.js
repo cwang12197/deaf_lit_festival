@@ -3,7 +3,8 @@ import './Home.css';
 import AboutFestival from '../AboutFestival/AboutFestival';
 import Schedule from '../Schedule/Schedule';
 import ShortenedReadingList from '../ShortenedReadingList/ShortenedReadingList';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
+
 
 function Home() {
     const scheduleRef = useRef(null);
@@ -45,9 +46,9 @@ function Home() {
                     <h2 className="logo-text">DEAF LIT FEST</h2>
                 </div>
                 <nav className="nav">
-                    <a href="#authors" className="nav-link">Authors</a>
-                    <a href="#reading-list" className="nav-link">Reading List</a>
-                    <a href="#about" className="nav-link">About</a>
+                    <Link to="/authors" className="nav-link">Authors</Link>
+                    <Link to="/reading-list" className="nav-link">Reading List</Link>
+                    <Link to="/about" className="nav-link">About</Link>
                 </nav>
             </header>
             <div className="home-page" style={homePageStyle}>

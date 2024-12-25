@@ -1,0 +1,72 @@
+.authors-container {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.authors-title {
+    font-size: 2.5rem;
+    color: #2d8bba;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.authors-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.author-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.author-image {
+    width: 180px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.author-info {
+    text-align: left;
+    flex: 1;
+}
+
+.author-name {
+    font-size: 1.5rem;
+    color: #2d8bba;
+    margin-bottom: 10px;
+}
+
+.author-bio {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .author-item {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center align for mobile */
+        text-align: center; /* Center-align text */
+    }
+
+    .author-image {
+        width: 150px; /* Smaller width for mobile */
+        height: 200px; /* Adjusted height */
+        margin-bottom: 20px; /* Add space between image and text */
+    }
+
+    .author-info {
+        text-align: center; /* Center text under the image */
+    }
+}
