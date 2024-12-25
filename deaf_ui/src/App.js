@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './App.css';
 import './AboutFestival/AboutFestival';
 import AboutFestival from './AboutFestival/AboutFestival';
+import Schedule from './Schedule/Schedule';
 
 function App() {
+    const scheduleRef = useRef(null);
+
+    const scrollToSchedule = () => {
+        scheduleRef.current?.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <div>
             <header className="header">
                 <div className="logo">
-                    <img src={process.env.PUBLIC_URL+"/dlf_logo.png"} alt="Deaf Lit Fest Logo" className="logo-img" />
+                    <img src={process.env.PUBLIC_URL + "/dlf_logo.png"} alt="Deaf Lit Fest Logo" className="logo-img" />
                     <h2 className="logo-text">DEAF LIT FEST</h2>
                 </div>
                 <nav className="nav">
@@ -27,12 +34,15 @@ function App() {
                         </h1>
                         <h2 className="year">2025</h2>
                     </div>
-                    <div className="date-container">
+                    <div className="date-container" onClick={scrollToSchedule}>
                         <div className="date">February 8th, 2025</div>
                     </div>
                 </div>
             </div>
             <AboutFestival />
+            <div ref={scheduleRef}>
+                <Schedule />
+            </div>
         </div>
     );
 }
@@ -45,6 +55,6 @@ const homePageStyle = {
     margin: 0,
     padding: 0,
     backgroundColor: 'transparent',
-  };
+};
 
 export default App;
