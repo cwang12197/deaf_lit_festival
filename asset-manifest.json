@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/deaf_lit_festival/static/css/main.82a8a7ac.css",
-    "main.js": "/deaf_lit_festival/static/js/main.772b1b6c.js",
+    "main.css": "/deaf_lit_festival/static/css/main.459e17e9.css",
+    "main.js": "/deaf_lit_festival/static/js/main.bba7be5a.js",
     "static/js/488.bcf272ce.chunk.js": "/deaf_lit_festival/static/js/488.bcf272ce.chunk.js",
     "index.html": "/deaf_lit_festival/index.html",
-    "main.82a8a7ac.css.map": "/deaf_lit_festival/static/css/main.82a8a7ac.css.map",
-    "main.772b1b6c.js.map": "/deaf_lit_festival/static/js/main.772b1b6c.js.map",
+    "main.459e17e9.css.map": "/deaf_lit_festival/static/css/main.459e17e9.css.map",
+    "main.bba7be5a.js.map": "/deaf_lit_festival/static/js/main.bba7be5a.js.map",
     "488.bcf272ce.chunk.js.map": "/deaf_lit_festival/static/js/488.bcf272ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82a8a7ac.css",
-    "static/js/main.772b1b6c.js"
+    "static/css/main.459e17e9.css",
+    "static/js/main.bba7be5a.js"
   ]
 }
