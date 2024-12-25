@@ -1,5 +1,5 @@
 .authors-container {
-    background-color: #f9f9f9;
+    background-color: #e7e2de;
     padding: 40px 20px;
     text-align: center;
 }
@@ -8,7 +8,7 @@
     font-size: 2.5rem;
     color: #2d8bba;
     margin-bottom: 20px;
-    font-family: Arial, sans-serif;
+    font-family: 'Crimson pro';
 }
 
 .authors-list {
