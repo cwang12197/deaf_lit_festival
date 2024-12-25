@@ -109,43 +109,10 @@ body {
 }
 
 
-@media (max-width: 600px) {
-
-    body {
-        background-color: #2d8bba;
-    }
-
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo-img {
-        height: 50px;
-    }
-
-    .logo-text {
-        font-size: 18px;
-        color: #ffffff;
-    }
-
-    .nav {
-        flex-direction: column;
-        gap: 10px;
-        margin: 10px 0;
-    }
-
-    .nav-link {
-        font-size: 18px;
-    }
+@media (max-width: 768px) {
 
     .home-page {
-        background-image: none;
-    }
-
-    .hero {
-        padding: 20px;
-        align-items: center;
+        min-height: 50vh;
     }
 
     .title-year-container {
@@ -153,24 +120,33 @@ body {
         align-items: center;
     }
 
+    body {
+        background-color: #2d8bba;
+    }
+
+    .title{
+        color:#ffffff;
+    }
+
+    .hero {
+        margin-top: 100px; 
+        text-align: center; 
+        align-items: center;
+    }
+
     .title {
-        font-size: 48px;
-        text-align: center;
-        color: #ffffff;
+        font-size: 36px; 
     }
 
     .year {
-        font-size: 48px;
-        text-align: center;
-        color: #ffffff;
-    }
-
-    .date-container {
-        margin-top: 15px;
+        font-size: 36px;
+        align-self: center;
     }
 
     .date {
-        font-size: 20px;
-        padding: 8px 15px;
+        font-size: 18px; 
+        padding: 8px 16px; 
+        color:#ffffff;
+        border: 2px solid #ffffff;
     }
 }

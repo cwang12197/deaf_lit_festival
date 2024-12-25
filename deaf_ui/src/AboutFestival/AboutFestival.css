@@ -22,7 +22,7 @@
 }
 
 .about-festival-image {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 20px;
 }
@@ -44,4 +44,30 @@
     line-height: 1.6;
     padding-bottom: 15px;
     border-bottom: 1px solid #ffffff;
+}
+
+@media (max-width: 768px) {
+    .about-festival-content {
+        flex-direction: column; 
+    }
+
+    .image-section {
+        text-align: center; 
+    }
+
+    .about-festival-image {
+        width: 100%; 
+    }
+
+    .text-section {
+        text-align: center; 
+    }
+
+    .text-section h1 {
+        font-size: 28px; 
+    }
+
+    .text-section p {
+        font-size: 16px; 
+    }
 }
