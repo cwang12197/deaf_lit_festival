@@ -1,101 +1,183 @@
+.partners-section {
+    background-color: #ffffff; /* White background */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd; /* Optional border for separation */
+  }
+  
+  .partner-logo {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+
 .contact-us-section {
-    background-color: #ffffff;
-    padding: 40px 20px;
-    text-align: center;
+    background-color: #2d8bba; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-}
-
-.partners-section {
+  }
+  
+  .contact-container {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-bottom: 20px;
-}
-
-.partner-logo {
-    max-width: 180px;
-    max-height: 180px;
-    object-fit: contain;
-    border-radius: 8px;
-}
-
-.contact-details {
-    background-color: #2d8bba;
-    color: #ffffff;
-    padding: 100px 50px;
+    align-items: center;
     width: 100%;
+    padding: 5% 0;
+  }
+  
+  .logo-section {
+    flex: 1;
     text-align: center;
-}
-
-.contact-details h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+  }
+  
+  .dlf-logo {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
+  .contact-content {
+    flex: 2;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .contact-message {
     color: #ffffff;
-}
-
-.contact-details p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin: 5px 0;
-}
-
-.contact-button {
-    background-color: #ffffff;
-    color: #2d8bba;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .contact-message h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-message .contact-button {
     border: none;
     padding: 12px 24px;
     font-size: 1.1rem;
     border-radius: 8px;
     cursor: pointer;
     transition: transform 0.2s ease, background-color 0.2s ease;
-}
-
-.contact-button:hover {
+  }
+  
+  .contact-message .contact-button:hover {
     transform: scale(1.05);
-}
-
-/* Mobile Styles */
-@media (max-width: 768px) {
-    .contact-us-section {
-        padding: 20px 10px;
-        /* Smaller padding */
-        gap: 10px;
-        /* Reduce spacing between elements */
+  }
+  
+  .contact-info-box {
+    color: #333333;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+  .contact-info-box p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-content h2 {
+    margin-top: 0;
+  }
+  
+  .popup-content form div {
+    margin-bottom: 10px;
+  }
+  
+  .popup-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .popup-content input,
+  .popup-content textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .popup-content button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      padding: 2% 0;
     }
-
+  
+    .contact-content {
+      flex-direction: column;
+    }
+  
+    .contact-message,
+    .contact-info-box {
+      padding: 20px;
+    }
+  
     .partners-section {
-        gap: 20px;
-        /* Reduce gap between logos */
+      flex-wrap: wrap;
     }
-
+  
     .partner-logo {
-        max-width: 80px;
-        /* Smaller logo size */
-        max-height: 80px;
+      max-width: 80px;
+      max-height: 80px;
     }
-
-    .contact-details {
-        padding: 20px;
-        /* Reduce padding for mobile */
+  
+    .dlf-logo {
+      max-width: 120px;
+      max-height: 120px;
     }
-
-    .contact-details h2 {
-        font-size: 1.5rem;
-        /* Smaller heading */
+  
+    .contact-message h2 {
+      font-size: 1.5rem;
     }
-
-    .contact-details p {
-        font-size: 1rem;
-        /* Smaller text size */
+  
+    .contact-info-box p {
+      font-size: 1rem;
     }
-
-    .contact-button {
-        padding: 8px 16px;
-        /* Smaller button */
-        font-size: 0.9rem;
-        /* Smaller font size */
+  
+    .contact-message .contact-button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
     }
-}
+  }
+  
