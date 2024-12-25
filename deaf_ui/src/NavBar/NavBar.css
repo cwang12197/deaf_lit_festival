@@ -23,13 +23,19 @@
     transition: transform 0.3s ease;
 }
 
-.logo:hover .logo-img {
+.logo:hover .logo-img{
     transform: scale(1.1); 
 }
 
 .logo-text {
     color: #2d8bba;
     margin: 0;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover .logo-text {
+    transform: scale(1.05); 
 }
 
 .nav {
@@ -41,13 +47,13 @@
 .nav-link {
     text-decoration: none;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #2d8bba !important;
+    color: #e49c6c !important;
     transform: scale(1.1);
 }
 
