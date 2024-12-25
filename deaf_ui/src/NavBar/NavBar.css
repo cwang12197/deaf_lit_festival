@@ -8,6 +8,7 @@
     width: 100%;
     top: 0;
     z-index: 100;
+    font-family: 'Montserrat';
 }
 
 .logo {
@@ -19,6 +20,11 @@
 
 .logo-img {
     height: 80px;
+    transition: transform 0.4s ease;
+}
+
+.logo:hover .logo-img {
+    transform: scale(1.1); 
 }
 
 .logo-text {
@@ -37,9 +43,11 @@
     color: #ffffff;
     font-size: 25px;
     font-weight: bold;
-    transition: color 0.3s ease;
+    transition: color 0.4s ease, transform 0.4s ease;
 }
 
 .nav-link:hover {
-    color: #000000;
+    color: #2d8bba !important;
+    transform: scale(1.1);
 }
+

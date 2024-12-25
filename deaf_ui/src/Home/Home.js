@@ -3,7 +3,6 @@ import './Home.css';
 import AboutFestival from '../AboutFestival/AboutFestival';
 import Schedule from '../Schedule/Schedule';
 import ShortenedReadingList from '../ShortenedReadingList/ShortenedReadingList';
-import NavBar from '../NavBar/NavBar';
 
 function Home() {
     const scheduleRef = useRef(null);
@@ -34,7 +33,6 @@ function Home() {
 
     return (
         <div>
-            <NavBar />
             <div className="home-page" style={homePageStyle}>
                 <div className="hero">
                     <div className="title-year-container">

@@ -22,16 +22,10 @@
     align-items: center;
   }
   
-  .contact-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 5% 0;
-  }
-  
   .logo-section {
     flex: 1;
     text-align: center;
+    padding: 1% 5%;
   }
   
   .dlf-logo {
@@ -39,40 +33,56 @@
     max-height: 200px;
     object-fit: contain;
   }
-  
-  .contact-content {
-    flex: 2;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .contact-message {
-    color: #ffffff;
-    border-radius: 8px;
-    flex: 1;
-    text-align: center;
-  }
-  
-  .contact-message h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
+
   .contact-message .contact-button {
-    border: none;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
     padding: 12px 24px;
     font-size: 1.1rem;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: transform 0.2s ease, background-color 0.2s ease;
-  }
-  
-  .contact-message .contact-button:hover {
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-message .contact-button:hover {
     transform: scale(1.05);
-  }
+    color: #2d8bba;
+    background-color: white;
+}
+
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    padding: 1% 10%;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Reduce spacing between containers */
+    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+}
+
+.contact-message,
+.contact-info-box {
+    margin: 0;
+    padding: 10px; 
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact-message {
+    text-align: center;
+    font-family: 'Montserrat';
+}
   
   .contact-info-box {
-    color: #333333;
+    color: #ffffff;
+    font-family: 'Crimson pro';
     padding: 40px;
     border-radius: 8px;
     flex: 1;
@@ -80,8 +90,9 @@
   
   .contact-info-box p {
     margin: 10px 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
+
   .popup-overlay {
     position: fixed;
     top: 0;

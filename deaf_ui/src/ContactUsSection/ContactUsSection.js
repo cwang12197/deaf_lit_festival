@@ -40,10 +40,12 @@ const ContactUsSection = () => {
                         </div>
                         <div className="contact-info-box">
                             <p>
-                                <strong>Date:</strong> February 8th, 2025
+                                <strong>Date</strong><br />
+                                February 8th, 2025
                             </p>
                             <p>
-                                <strong>Address:</strong> University of Virginia Grounds<br />
+                                <strong>Address</strong><br />
+                                University of Virginia Grounds<br />
                                 Location TBD
                             </p>
                         </div>
@@ -79,8 +81,8 @@ const ContactUsSection = () => {
                 </div>
             )}
 
-</>
-  );
+        </>
+    );
 };
 
 export default ContactUsSection;
