@@ -3,18 +3,12 @@ import './Home.css';
 import AboutFestival from '../AboutFestival/AboutFestival';
 import Schedule from '../Schedule/Schedule';
 import ShortenedReadingList from '../ShortenedReadingList/ShortenedReadingList';
-import { useNavigate, Link } from 'react-router-dom';
-
+import NavBar from '../NavBar/NavBar';
 
 function Home() {
     const scheduleRef = useRef(null);
     const scrollToSchedule = () => {
         scheduleRef.current?.scrollIntoView({ behavior: 'smooth' });
-    };
-
-    const navigate = useNavigate();
-    const handleLogoClick = () => {
-        navigate('/');
     };
 
     const [homePageStyle, setHomePageStyle] = useState(getHomePageStyle());
@@ -40,17 +34,7 @@ function Home() {
 
     return (
         <div>
-            <header className="header">
-                <div className="logo" onClick={handleLogoClick}>
-                    <img src={process.env.PUBLIC_URL + "/dlf_logo.png"} alt="Deaf Lit Fest Logo" className="logo-img" />
-                    <h2 className="logo-text">DEAF LIT FEST</h2>
-                </div>
-                <nav className="nav">
-                    <Link to="/authors" className="nav-link">Authors</Link>
-                    <Link to="/reading-list" className="nav-link">Reading List</Link>
-                    <Link to="/about" className="nav-link">About</Link>
-                </nav>
-            </header>
+            <NavBar />
             <div className="home-page" style={homePageStyle}>
                 <div className="hero">
                     <div className="title-year-container">
@@ -75,7 +59,4 @@ function Home() {
     );
 }
 
-
 export default Home;
-
-
