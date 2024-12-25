@@ -8,7 +8,7 @@ function App() {
         <div>
             <header className="header">
                 <div className="logo">
-                    <img src="logo.png" alt="Deaf Lit Fest Logo" className="logo-img" />
+                    <img src={process.env.PUBLIC_URL+"/dlf_logo.png"} alt="Deaf Lit Fest Logo" className="logo-img" />
                     <h2 className="logo-text">DEAF LIT FEST</h2>
                 </div>
                 <nav className="nav">
@@ -38,7 +38,7 @@ function App() {
 }
 
 const homePageStyle = {
-    backgroundImage: 'url(/home_page.png)',
+    backgroundImage: `url(${process.env.PUBLIC_URL}/home_page.png)`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     minHeight: '100vh',
