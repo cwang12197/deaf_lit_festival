@@ -1,0 +1,96 @@
+.about-host-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2d8bba; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 40px;
+    align-items: center;
+    gap: 20px;
+}
+
+.host-image-container {
+    flex: 1 1 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.host-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.host-name-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.host-name {
+    font-size: 1.5rem;
+    color: #ffffff;
+    border: 2px solid #ffffff; 
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+.host-title {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+.host-description {
+    flex: 2;
+    padding: 20px;
+}
+
+.description-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Crimson Pro', serif;
+}
+
+.description-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .about-host-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .host-image {
+        max-width: 200px; /* Reduce image size */
+    }
+
+    .host-name {
+        font-size: 1.2rem; /* Smaller text for the name */
+        padding: 8px 16px;
+    }
+
+    .host-title {
+        font-size: 0.9rem; /* Smaller text for the title */
+    }
+
+    .host-description {
+        padding: 10px;
+    }
+
+    .description-title {
+        font-size: 2rem; /* Smaller title */
+    }
+
+    .description-text {
+        font-size: 1rem; /* Smaller body text */
+    }
+}

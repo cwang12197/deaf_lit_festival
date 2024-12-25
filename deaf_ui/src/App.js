@@ -5,6 +5,7 @@ import ContactUsSection from './ContactUsSection/ContactUsSection';
 import Authors from './Authors/Authors';
 import NavBar from './NavBar/NavBar';
 import ReadingList from './ReadingList/ReadingList';
+import About from './About/About';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/authors" element={<Authors />} />
                 <Route path="/reading-list" element={<ReadingList />} />
                 <Route path="/reading-list/:id" element={<ReadingList />} />
+                <Route path="/about" element={<About />} />
             </Routes>
             <ContactUsSection />
         </Router>
