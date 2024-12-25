@@ -54,8 +54,8 @@
 }
 
 @media (max-width: 768px) {
-    .authors-container {
-        margin-top: 125px;
+    .authors-title {
+        margin-top: 150px;
     }
     .author-item {
         flex-direction: column; /* Stack image and text vertically */

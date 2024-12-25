@@ -14,8 +14,8 @@
 }
 
 @media (max-width: 768px) {
-    .about-page {
-        margin-top: 125px;
+    .about-heading {
+        margin-top: 150px;
     }
 
 }

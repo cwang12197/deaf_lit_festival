@@ -111,25 +111,13 @@ body {
 
 @media (max-width: 768px) {
 
-    .home-page {
-        min-height: 50vh;
-    }
-
     .title-year-container {
         flex-direction: column;
         align-items: center;
-    }
-
-    body {
-        background-color: #2d8bba;
-    }
-
-    .title{
-        color:#ffffff;
+        margin-top: 100px; 
     }
 
     .hero {
-        margin-top: 100px; 
         text-align: center; 
         align-items: center;
     }
@@ -141,12 +129,11 @@ body {
     .year {
         font-size: 36px;
         align-self: center;
+        color: #2d8bba;
     }
 
     .date {
         font-size: 18px; 
         padding: 8px 16px; 
-        color:#ffffff;
-        border: 2px solid #ffffff;
     }
 }

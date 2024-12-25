@@ -15,7 +15,7 @@ function Home() {
     function getHomePageStyle() {
         const isSmallScreen = window.innerWidth <= 600;
         return {
-            backgroundImage: isSmallScreen ? 'none' : `url(${process.env.PUBLIC_URL}/home_page.png)`,
+            backgroundImage: isSmallScreen ? `url(${process.env.PUBLIC_URL}/mobile_home.png)` : `url(${process.env.PUBLIC_URL}/home_page.png)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             minHeight: '100vh',

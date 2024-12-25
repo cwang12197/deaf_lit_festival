@@ -78,8 +78,8 @@
 }
 
 @media (max-width: 768px) {
-    .reading-list-container { 
-        margin-top: 125px;
+    .reading-list-title { 
+        margin-top: 150px;
     }
     .book-item {
         flex-direction: column;
