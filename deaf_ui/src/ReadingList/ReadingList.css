@@ -7,8 +7,16 @@
 .reading-list-title {
     font-size: 2.5rem;
     color: #ffffff;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: Arial, sans-serif;
+}
+.reading-list-section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Crimson pro';
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #ffffff;
 }
 
 .book-item {
@@ -35,8 +43,9 @@
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(50, 50, 50, 0.2);
 }
+
 
 .book-details {
     flex: 1;
@@ -60,7 +69,13 @@
     line-height: 1.5;
 }
 
-/* Responsive Design */
+.book-genre {
+    font-size: 1em;
+    font-style: italic;
+    color: gray; 
+    margin: 5px 0;
+}
+
 @media (max-width: 768px) {
     .book-item {
         flex-direction: column;
