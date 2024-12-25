@@ -50,7 +50,6 @@
 @media (max-width: 768px) {
     .reading-list-grid {
         grid-template-columns: repeat(2, 1fr);
-        margin: 0 20px;
     }
 
     .reading-list-item {
@@ -62,17 +61,3 @@
     }
 }
 
-@media (max-width: 480px) {
-    .reading-list-grid {
-        grid-template-columns: repeat(1, 1fr);
-        margin: 0 10px;
-    }
-
-    .reading-list-item {
-        padding: 5px;
-    }
-
-    .reading-list-text {
-        font-size: 0.8rem;
-    }
-}

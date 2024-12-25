@@ -1,8 +1,13 @@
 .schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: #2d8bba;
     padding: 20px;
     min-height: 100vh;
+    margin: 0;
 }
 
 .schedule-title {
@@ -48,6 +53,7 @@
     .schedule-table {
         margin: 0 auto;
         border-collapse: collapse;
-        width: 95%;
+        width: 100%;
     }
+    
 }
