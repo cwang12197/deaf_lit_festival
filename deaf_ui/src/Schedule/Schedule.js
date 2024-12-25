@@ -3,16 +3,23 @@ import './Schedule.css';
 
 const Schedule = () => {
     const schedule = [
-        { time: "9:30", event: "Doors Open! Coffee will be provided" },
-        { time: "10:00-11:00", event: "Erin Moriarity" },
-        { time: "11:30-12:30", event: "Gina Olivia" },
-        { time: "12:30-1:30", event: "LUNCH" },
-        { time: "1:30-2:30", event: "Christopher Krentz", image: "/images/christopher-krentz.jpg" },
-        { time: "3:00-4:00", event: "John Lee Clark", image: "/images/john-lee-clark.jpg" },
-        { time: "4:30-5:30", event: "Carol Padden" },
-        { time: "6:00-7:00", event: "Sara Novic?" },
-        { time: "7:30-8:00", event: "DINNER" },
-        { time: "8:00-10:00", event: "ASL Open Mic Night: Deaf Storytelling" },
+        { time: "9:30", event: "Doors open with coffee!" },
+        { time: "10:00-10:45", event: "Erin Moriarity" },
+        { time: "10:45-11:45", event: "Terry Galloway performance" },
+        { time: "11:45-12:00", event: "Q&A with both Erin and Terry" },
+        { time: "12:00-12:30", event: "Terry Galloway and Erin Moriarity signing/ Break" },
+        { time: "12:30-1:00", event: "Lunch" },
+        { time: "1:00-2:00", event: "Christopher Krentz (CK)" },
+        { time: "2:00-2:30", event: "CK signing/ Break" },
+        { time: "2:30-3:30", event: "John Lee Clark" },
+        { time: "3:30-4:00", event: "John Lee Clark signing/ Break" },
+        { time: "4:00-5:00", event: "Kristen Harmon" },
+        { time: "5:00-5:30", event: "Kristen Harmon signing/ Break" },
+        { time: "5:30-6:30", event: "Leah Hager Cohen" },
+        { time: "6:30-7:00", event: "Leah Hager Cohen signing/ Break" },
+        { time: "7:00-8:00", event: "Carol Padden" },
+        { time: "8:00-8:30", event: "Carol Padden signing/ Break" },
+        { time: "8:30-10:00", event: "Open mic storytelling competition" },
     ];
 
     return (
