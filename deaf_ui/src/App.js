@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import './AboutFestival/AboutFestival';
 import AboutFestival from './AboutFestival/AboutFestival';
@@ -10,6 +10,27 @@ function App() {
     const scrollToSchedule = () => {
         scheduleRef.current?.scrollIntoView({ behavior: 'smooth' });
     };
+
+    const [homePageStyle, setHomePageStyle] = useState(getHomePageStyle());
+
+    function getHomePageStyle() {
+        const isSmallScreen = window.innerWidth <= 600;
+        return {
+            backgroundImage: isSmallScreen ? 'none' : `url(${process.env.PUBLIC_URL}/home_page.png)`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            minHeight: '100vh',
+            margin: 0,
+            padding: 0,
+            backgroundColor: 'transparent',
+        };
+    }
+
+    useEffect(() => {
+        const handleResize = () => setHomePageStyle(getHomePageStyle());
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     return (
         <div>
@@ -47,14 +68,5 @@ function App() {
     );
 }
 
-const homePageStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/home_page.png)`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    minHeight: '100vh',
-    margin: 0,
-    padding: 0,
-    backgroundColor: 'transparent',
-};
 
 export default App;
