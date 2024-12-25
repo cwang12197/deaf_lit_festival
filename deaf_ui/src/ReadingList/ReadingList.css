@@ -10,6 +10,7 @@
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
 }
+
 .reading-list-section-title {
     font-size: 2rem;
     font-weight: bold;
@@ -39,10 +40,10 @@
 }
 
 .book-image {
-    width: 150px;
-    height: 200px;
-    object-fit: cover;
+    height: 250px;
+    object-fit: contain;
     border-radius: 8px;
+    margin-bottom: 8px;
     box-shadow: 0 4px 10px rgba(50, 50, 50, 0.2);
 }
 
@@ -72,7 +73,7 @@
 .book-genre {
     font-size: 1em;
     font-style: italic;
-    color: gray; 
+    color: gray;
     margin: 5px 0;
 }
 
