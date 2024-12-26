@@ -6,7 +6,7 @@ function AboutFestival() {
         <div className="about-festival">
             <div className="about-festival-content">
                 <div className="image-section">
-                    <img src={process.env.PUBLIC_URL+"/temp.jpg"} alt="About the Festival Graphic" className="about-festival-image" />
+                    <img src={process.env.PUBLIC_URL+"/about_festival.jpeg"} alt="About the Festival Graphic" className="about-festival-image" />
                 </div>
                 <div className="text-section">
                     <h1>What is the Deaf Lit. Festival?</h1>
