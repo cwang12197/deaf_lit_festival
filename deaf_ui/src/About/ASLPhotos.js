@@ -24,7 +24,7 @@ const ASLPhotos = () => {
                         </div>
                         <div className="photo photo-style-3">
                             <img
-                                src={process.env.PUBLIC_URL + "/ASL professors.png"}
+                                src={process.env.PUBLIC_URL + "/ASL Professors.png"}
                                 alt="ASL group outdoors"
                                 className="photo-img"
                             />
