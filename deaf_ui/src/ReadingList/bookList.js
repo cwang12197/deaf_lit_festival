@@ -13,7 +13,7 @@ export const authorReadingList = [
     {
         id: 2,
         title: "Deaf American Prose",
-        author: "Kristen Harmon",
+        author: "Kristen Harmon (editor)",
         image: process.env.PUBLIC_URL + "/Deaf American Prose.webp",
         description: `In Deaf life, the personal narrative holds sway because most Deaf individuals recall their formative years as solitary struggles to understand and to be understood. Few deaf people in the past related their stories in written form, relying instead on a different kind of “oral” tradition, that of American Sign Language. During the last several decades, however, a burgeoning bilingual deaf experience has ignited an explosion of Deaf writing that has pushed the potential of ASL-influenced English to extraordinary creative heights. Deaf American Prose: 1980–2010 presents a diverse cross-section of stories, essays, memoirs, and novel excerpts by a remarkable cadre of Deaf writers that mines this rich, bilingual environment.
         The works in Deaf American Prose frame the Deaf narrative in myriad forms: Tom Willard sends up hearing patronization in his wicked satire “What Exactly Am I Supposed to Overcome?” Terry Galloway injects humor in “Words,” her take on the identity issues of being hard of hearing rather than deaf or hearing. Other contributors relate familiar stories about familiar trials, such as Tonya Stremlau’s account of raising twins, and Joseph Santini’s short story of the impact on Deaf and hearing in-laws of the death of a son. The conflicts are well-known and heartfelt, but with wrinkles directly derived from the Deaf perspective.

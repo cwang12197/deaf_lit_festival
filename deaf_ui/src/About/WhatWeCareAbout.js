@@ -5,20 +5,15 @@ const WhatWeCareAbout = () => {
     return (
         <div className="what-we-care-about-container">
             <div className="content-section">
-                <h1 className="section-header">What We Care About</h1>
+                <h1 className="section-header">Deaf Lit Festival</h1>
                 <div className="content">
-                    <img
-                        src={process.env.PUBLIC_URL+"/horizons.jpg"} 
-                        alt="People sitting and talking"
-                        className="section-image"
-                    />
                     <div className="about-text-section">
-                        <h2 className="sub-header">Expanding our horizon</h2>
                         <p className="description">
-                            You can talk about each company highlight more extensively in short but impactful paragraphs. This is a great way to surface salient points and accompany them with key visuals.
+                            The Deaf Literature Festival is a festival that was created to bring together all people in a large celebration of Deaf literature. With authors from Canada to San Francisco to our very own Charlottesville, our authors represent a wide range of literature and experiences. Take a look at our recommended reading list to see what books our authors have written as well as a diverse list of books you may also enjoy by Deaf and CODA authors. There will be food, drinks, and coffee provided. Parking is free on Saturdays and in depth parking maps will be provided as the event nears. We hope to see you at the festival!
+
                         </p>
-                        <p className="description">
-                            Some prompts that can help: What are the main achievements? What did it take to reach the goals? What is the impact of the outcome on the business, the people involved, and the industry as a whole?
+                        <p className='description'>
+                            This is a free event! No registration needed!
                         </p>
                     </div>
                 </div>
