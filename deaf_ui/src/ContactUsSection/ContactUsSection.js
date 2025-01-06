@@ -1,16 +1,58 @@
 import React, { useState } from 'react';
 import './ContactUsSection.css';
+import emailjs from '@emailjs/browser';
 
 const ContactUsSection = () => {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
+    const [feedback, setFeedback] = useState("");
+
+    emailjs.init({
+        publicKey: "ka1fthRPcKPikK54W",
+        blockHeadless: true,
+        blockList: {
+            list: [],
+            watchVariable: 'userEmail',
+        },
+        limitRate: {
+            id: 'app',
+            throttle: 10000,
+        },
+    });
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Email:", email);
-        console.log("Message:", message);
-        setIsPopupOpen(false);
+        setIsLoading(true);
+        setFeedback("");
+
+        const templateParams = {
+            email,
+            message,
+        };
+
+        emailjs
+            .send(
+                "service_sq25vde",
+                "template_hu1rtfr",
+                templateParams,
+                "ka1fthRPcKPikK54W"
+            )
+            .then((response) => {
+                console.log("success");
+                setFeedback("Your message has been sent successfully!");
+                setEmail("");
+                setMessage("");
+            })
+            .catch((error) => {
+                console.log("failure", error);
+                setFeedback("Failed to send your message. Please try again.");
+            })
+            .finally(() => {
+                setIsLoading(false);
+                setIsPopupOpen(false);
+            });
     };
 
     return (
@@ -75,12 +117,14 @@ const ContactUsSection = () => {
                                     required
                                 ></textarea>
                             </div>
-                            <button type="submit">Submit</button>
+                            <button type="submit" disabled={isLoading}>
+                                {isLoading ? "Sending..." : "Submit"}
+                            </button>
                         </form>
+                        {feedback && <p>{feedback}</p>}
                     </div>
                 </div>
             )}
-
         </>
     );
 };
