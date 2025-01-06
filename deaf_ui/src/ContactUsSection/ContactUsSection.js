@@ -9,8 +9,12 @@ const ContactUsSection = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [feedback, setFeedback] = useState("");
 
+    const pk = "ka1fthRPcKPikK54W"
+    const sk = "service_sq25vde"
+    const tk = "template_hu1rtfr"
+
     emailjs.init({
-        publicKey: "ka1fthRPcKPikK54W",
+        publicKey: pk,
         blockHeadless: true,
         blockList: {
             list: [],
@@ -34,19 +38,17 @@ const ContactUsSection = () => {
 
         emailjs
             .send(
-                "service_sq25vde",
-                "template_hu1rtfr",
+                sk,
+                tk,
                 templateParams,
-                "ka1fthRPcKPikK54W"
+                pk
             )
             .then((response) => {
-                console.log("success");
                 setFeedback("Your message has been sent successfully!");
                 setEmail("");
                 setMessage("");
             })
             .catch((error) => {
-                console.log("failure", error);
                 setFeedback("Failed to send your message. Please try again.");
             })
             .finally(() => {
