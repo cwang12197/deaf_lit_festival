@@ -13,8 +13,9 @@ function AboutFestival() {
                     <p>
                         The Deaf Literature Festival is a day-long celebration of Deaf literature. The day will consist of hour-long sessions
                         of author readings and will end with a storytelling open mic night. Charlottesville is a hub for both Deaf culture
-                        and literature, and we hope you join us in bringing these two together!
+                        and literature, and we hope you join us in bringing these two together! 
                     </p>
+                    <b>This is a free event! No registration needed!</b>
                 </div>
             </div>
         </div>

@@ -8,12 +8,12 @@ const Schedule = () => {
         { time: "10:45-11:45", event: "Terry Galloway Performance" },
         { time: "11:45-12:00", event: "Q&A with Erin and Terry" },
         { time: "12:30-1:00", event: "Lunch" },
-        { time: "1:00-2:00", event: "Christopher Krentz (CK)" },
+        { time: "1:00-2:00", event: "Christopher Krentz" },
         { time: "2:30-3:30", event: "John Lee Clark" },
         { time: "4:00-5:00", event: "Kristen Harmon" },
         { time: "5:30-6:30", event: "Leah Hager Cohen" },
         { time: "7:00-8:00", event: "Carol Padden" },
-        { time: "8:30-10:00", event: "Open Mic Storytelling Competition" },
+        { time: "8:30-10:00", event: "Open Mic Storytelling Event" },
     ];
 
     return (

@@ -49,8 +49,13 @@
 .description {
     font-size: 1rem;
     line-height: 1.8;
-    margin-bottom: 10px;
     color: #333333;
+}
+
+.description-event {
+    font-size: 1.4rem;
+    margin: 2.5% 5%;
+    color: black;
 }
 
 @media (max-width: 768px) {

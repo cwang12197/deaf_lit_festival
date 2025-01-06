@@ -18,7 +18,7 @@ const authors = [
         id: 3,
         name: "Erin Moriarity",
         bio: "Erin Moriarity researches the intersection of mobility and languaging practices, focusing on deaf linguistic practices in transnational settings as they shape and are shaped by language ideologies. Her work examines language use, translanguaging, sign language documentation, and the socio-cultural dynamics within deaf communities. Moriarty's scholarly contributions include the recent co-edited volume, 'Deaf Mobility Studies.' Notable articles include 'Deaf Cosmopolitanism: Calibrating as a Moral Process' (with Annelies Kusters), 'Filmmaking in a Linguistic Ethnography of Deaf Tourist Encounters,' and 'Sign to me, not the children': Ideologies of language contamination at a deaf tourist site in Bali. Additionally, she has produced an ethnographic film, '#DeafTravel: Deaf Tourism in Bali.' Her research has been supported by fellowships and awards, including a Fulbright-National Geographic Digital Storytelling Fellowship and a recent award from the NEH to reimagine Deaf Studies for the future. Moriarty earned her Ph.D. in Anthropology from American University, her M.A. in Communications in Contemporary Society from Johns Hopkins University, and a B.A. in Art History and Anthropology from Smith College. She has held a post-doctoral appointment at Heriot-Watt University in Edinburgh, Scotland. She is now Assistant Professor in Anthropology at the University of Virginia.",
-        image: process.env.PUBLIC_URL + "/Erin Moriarity.jpeg",
+        image: process.env.PUBLIC_URL + "/Erin Moriarty.jpeg",
     },
     {
         id: 4,
@@ -38,6 +38,12 @@ const authors = [
         bio: "Leah Hager Cohen grew up at the Lexington School for the Deaf, where both of her parents worked and her grandfather had been a student. She spent a few years working as an ASL interpreter in New York City before attending Columbia University's Graduate School of Journalism, which led to her first book, Train Go Sorry: Inside a Deaf World. She is the author of seven novels, including To & Fro, and five works of nonfiction, including I Don't Know: In Praise of Admitting Ignorance (Except When You Shouldn't). Cohen is the Barrett Professor of Creative Writing at the College of the Holy Cross.",
         image: process.env.PUBLIC_URL + "/Leah Hager Cohen.JPG",
     },
+    {
+        id: 7,
+        name: "Terry Galloway",
+        bio: `In a world where disability often comes packaged with pity and queerness with caution, Terry Galloway decided early on to throw out both scripts. Armed with a sharp tongue and a sharper sense of humor, she set out to create her own irreverent path as a half-pint, deaf, queer troublemaker. From a childhood in Berlin rocked by medical accident to a freewheeling Texas adulthood full of theater, activism, and just enough sexual chaos to keep it interesting, Galloway has long used laughter as her defense against life’s cruelest jokes. In Texas, she Is known for her cross dressing roles in Shakespeare and at Esther’s Follies, Austin’s legendary cabaret. She’s toured the world both as a solo performance artist and with P.S 122 ‘s Field Trips. In the guise of giant rodent, she heads up Mickee Faust, a radicalized community theater for Tallahassee, Florida’s disability, queer, and just plain weird community. When not touring, she lives in Tallahassee with her wife, Donna Marie Nudd, their two cats and bevy of friends and family. Her memoir, Mean Little deaf Queer is being re-issued in 2025 with a new afterword detailing her love/hate affair with technology and the two-faced lure of being “cured."`,
+        image: process.env.PUBLIC_URL + "/terry.png",
+    }
 ];
 
 const Authors = () => {

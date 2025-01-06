@@ -12,8 +12,8 @@ const WhatWeCareAbout = () => {
                             The Deaf Literature Festival is a festival that was created to bring together all people in a large celebration of Deaf literature. With authors from Canada to San Francisco to our very own Charlottesville, our authors represent a wide range of literature and experiences. Take a look at our recommended reading list to see what books our authors have written as well as a diverse list of books you may also enjoy by Deaf and CODA authors. There will be food, drinks, and coffee provided. Parking is free on Saturdays and in depth parking maps will be provided as the event nears. We hope to see you at the festival!
 
                         </p>
-                        <p className='description'>
-                            This is a free event! No registration needed!
+                        <p className='description-event'>
+                            <b>This is a free event! No registration needed!</b>
                         </p>
                     </div>
                 </div>
