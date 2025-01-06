@@ -30,7 +30,7 @@ const authors = [
         id: 5,
         name: "Kristen Harmon",
         bio: "Kristen Harmon is a Professor of English at Gallaudet University, specializing in Deaf literature and creative writing. She has published multiple short stories and creative non-fiction. Kristen has also curated and published multiple anthologies and collections of contemporary and archival creative writing, including Deaf American Prose, Volumes I & II. Additionally, Kristen has edited and written introductions for multiple recovered manuscripts by Deaf authors and is currently the series editor for the Classics in Deaf Studies imprint under Gallaudet University Press.",
-        image: process.env.PUBLIC_URL + "/images/kristen_harmon.jpg",
+        image: process.env.PUBLIC_URL + "/kristen_harmon.jpg",
     },
     {
         id: 6,
