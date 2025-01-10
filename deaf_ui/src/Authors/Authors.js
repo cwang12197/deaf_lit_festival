@@ -21,12 +21,6 @@ const authors = [
         image: process.env.PUBLIC_URL + "/Erin Moriarty.jpeg",
     },
     {
-        id: 4,
-        name: "John Lee Clark",
-        bio: "John Lee Clark is the author, most recently, of How to Communicate: Poems, which won the Minnesota Book Award and was finalist for the National Book Award, and Touch the Future: A Manifesto in Essays. Both are published by W. W. Norton and Company. A DeafBlind writer, historian, translator, and Protactile educator, he is currently based in Montreal, where he is the Miriam Aaron Roland Graduate Fellow at Concordia University.",
-        image: process.env.PUBLIC_URL + "/John Lee Clark.jpg",
-    },
-    {
         id: 5,
         name: "Kristen Harmon",
         bio: "Kristen Harmon is a Professor of English at Gallaudet University, specializing in Deaf literature and creative writing. She has published multiple short stories and creative non-fiction. Kristen has also curated and published multiple anthologies and collections of contemporary and archival creative writing, including Deaf American Prose, Volumes I & II. Additionally, Kristen has edited and written introductions for multiple recovered manuscripts by Deaf authors and is currently the series editor for the Classics in Deaf Studies imprint under Gallaudet University Press.",
@@ -41,7 +35,7 @@ const authors = [
     {
         id: 7,
         name: "Terry Galloway",
-        bio: `In a world where disability often comes packaged with pity and queerness with caution, Terry Galloway decided early on to throw out both scripts. Armed with a sharp tongue and a sharper sense of humor, she set out to create her own irreverent path as a half-pint, deaf, queer troublemaker. From a childhood in Berlin rocked by medical accident to a freewheeling Texas adulthood full of theater, activism, and just enough sexual chaos to keep it interesting, Galloway has long used laughter as her defense against life’s cruelest jokes. In Texas, she Is known for her cross dressing roles in Shakespeare and at Esther’s Follies, Austin’s legendary cabaret. She’s toured the world both as a solo performance artist and with P.S 122 ‘s Field Trips. In the guise of giant rodent, she heads up Mickee Faust, a radicalized community theater for Tallahassee, Florida’s disability, queer, and just plain weird community. When not touring, she lives in Tallahassee with her wife, Donna Marie Nudd, their two cats and bevy of friends and family. Her memoir, Mean Little deaf Queer is being re-issued in 2025 with a new afterword detailing her love/hate affair with technology and the two-faced lure of being “cured."`,
+        bio: `In a world where disability often comes packaged with pity and queerness with caution, Terry Galloway decided early on to throw out both scripts. Armed with a sharp tongue and a sharper sense of humor, she set out to create her own irreverent path as a half-pint, deaf, queer troublemaker. From a childhood in Berlin rocked by medical accident to a freewheeling Texas adulthood full of theater, activism, and just enough sexual chaos to keep it interesting, Galloway has long used laughter as her defense against life’s cruelest jokes. In Texas, she Is known for her cross dressing roles in Shakespeare and at Esther’s Follies, Austin’s legendary cabaret. She’s toured the world both as a solo performance artist and with P.S 122 ‘s Field Trips. In the guise of giant rodent, she heads up Mickee Faust, a radicalized community theater for Tallahassee, Florida’s disability, queer, and just plain weird community. When not touring, she lives in Tallahassee with her wife, Donna Marie Nudd, their two cats and bevy of friends and family. Her memoir, Mean Little deaf Queer is being re-issued in 2025 with a new afterword detailing her love/hate affair with technology and the two-faced lure of being “cured." She is stupidly pleased that on June 11, 2024 "Mean Little deaf Queer memoirist Galloway" was the 8 Across clue for the Apple News + Crossword.  The answer was "Terry." `,
         image: process.env.PUBLIC_URL + "/terry.png",
     }
 ];

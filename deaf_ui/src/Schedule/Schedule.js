@@ -9,7 +9,6 @@ const Schedule = () => {
         { time: "11:45-12:00", event: "Q&A with Erin and Terry" },
         { time: "12:30-1:00", event: "Lunch" },
         { time: "1:00-1:45", event: "Christopher Krentz" },
-        { time: "2:00-3:00", event: "John Lee Clark" },
         { time: "3:30-4:30", event: "Kristen Harmon" },
         { time: "4:45-5:30", event: "Dinner" },
         { time: "5:30-6:30", event: "Leah Hager Cohen" },

@@ -41,17 +41,6 @@ export const authorReadingList = [
         genre: "Nonfiction",
     },
     {
-        id: 5,
-        title: "How to Communicate: Poems",
-        author: "John Lee Clark",
-        image: process.env.PUBLIC_URL + "/how to communicate.jpg",
-        description: `Formally restless and relentlessly instructive, How to Communicate is a dynamic journey through language, community, and the unfolding of an identity. Poet John Lee Clark pivots from inventive forms inspired by the Braille slate to sensuous prose poems to incisive erasures that find new narratives in nineteenth-century poetry. Calling out the limitations of the literary canon, Clark includes pathbreaking translations from American Sign Language and Protactile, a language built on touch.
-        How to Communicate embraces new linguistic possibilities that emanate from Clark’s unique perspective and his connection to an expanding, inclusive activist community. Amid the astonishing task of constructing a new canon, the poet reveals a radically commonplace life. He explores grief and the vagaries of family, celebrates the small delights of knitting and visiting a museum, and, once, encounters a ghost in a gas station. Counteracting the assumptions of the sighted and hearing world with humor and grace, Clark finds beauty in the revelations of communicating through touch: “All things living and dead cry out to me / when I touch them.”
-        A rare work of transformation and necessary discovery, How to Communicate is a brilliant debut that insists on the power of poetry.
-        A stunning debut from an award-winning DeafBlind poet, “How to Communicate is a masterpiece” (Kaveh Akbar).`,
-        genre: "Poetry",
-    },
-    {
         id: 6,
         title: "Mean Little deaf Queer",
         author: "Terry Galloway",
@@ -68,17 +57,6 @@ export const authorReadingList = [
         Ani, journeying across a great distance accompanied by a stolen kitten, meets many people along her way, but her encounters only convince her that she is meant to keep searching. Annamae, journeying from childhood to young adulthood alongside her mother, older brother, and the denizens of her Manhattan neighborhood, never outgrows her yearning for a friend she cannot describe. From their different worlds, Ani and Annamae reach across the divide, perhaps to discover—or perhaps to create—each other.
         Told in two mirrored narratives that culminate in a new beginning, To & Fro unleashes the wonders and mysteries of childhood in a profound exploration of identity, spirituality, and community.`,
         genre: "Fiction",
-    },
-    {
-        id: 8,
-        title: "Touch the Future: A Manifesto in Essays",
-        author: "John Lee Clark",
-        image: process.env.PUBLIC_URL + "/touch the future .jpg",
-        description: `Born Deaf into an ASL-speaking family and blind by adolescence, John Lee Clark learned to embrace the possibilities of his tactile world. He is on the frontlines of the Protactile movement, which gave birth to an unprecedented language and way of life based on physical connection.
-        In a series of paradigm-shifting essays, Clark reports on seismic developments within the DeafBlind community and challenges the limitations of sighted and hearing norms. In "Against Access," he interrogates the prevailing advocacy for "accessibility" that re-creates a shadow of a hearing-sighted experience, and in "Tactile Art," he describes his relationship to visual art and breathtaking encounters with tactile sculpture. He offers a brief history of the term "DeafBlind," distills societal discrimination against DeafBlind people into "Distantism," sheds light on the riches of online community, and advocates for "Co-Navigation," a new way of exploring the world together without a traditional guide.
-        Touch the Future brims with passion, energy, humor, and imagination as Clark takes us by the hand and welcomes us into the exciting landscape of Protactile communication. A distinct language of taps, signs, and reciprocal contact, Protactile emerged from the inadequacies of ASL―a visual language even when pressed into someone’s hand―with the power to upend centuries of DeafBlind isolation.
-        As warm and witty as he is radical and inspiring, Clark encourages us―disabled and non-disabled alike―to reject stigma and discover the ways we are connected. Touch the Future is a dynamic appeal to rethink the meanings of disability, access, language, and inclusivity, and to reach for a future we can create together.`,
-        genre: "Essays– written by Deafblind author",
     },
     {
         id: 9,
@@ -251,6 +229,17 @@ export const recommendationsReadingList = [
         From the beaches of Coney Island to Ebbets Field, where he watches his father’s hero Jackie Robinson play ball, from the branch library above the local Chinese restaurant where the odor of chow mein rose from the pages of the books he devoured to the hospital ward where he visits his polio-afflicted friend, this is a memoir filled with stories about growing up not just as the child of two deaf people but as a book-loving, mischief-making, tree-climbing kid during the remarkably eventful period that spanned the Depression, the War, and the early fifties.`,
         genre: "Memoir– written by CODA (Child of Deaf Adult)",
     },
+    {
+        id: 5,
+        title: "How to Communicate: Poems",
+        author: "John Lee Clark",
+        image: process.env.PUBLIC_URL + "/how to communicate.jpg",
+        description: `Formally restless and relentlessly instructive, How to Communicate is a dynamic journey through language, community, and the unfolding of an identity. Poet John Lee Clark pivots from inventive forms inspired by the Braille slate to sensuous prose poems to incisive erasures that find new narratives in nineteenth-century poetry. Calling out the limitations of the literary canon, Clark includes pathbreaking translations from American Sign Language and Protactile, a language built on touch.
+        How to Communicate embraces new linguistic possibilities that emanate from Clark’s unique perspective and his connection to an expanding, inclusive activist community. Amid the astonishing task of constructing a new canon, the poet reveals a radically commonplace life. He explores grief and the vagaries of family, celebrates the small delights of knitting and visiting a museum, and, once, encounters a ghost in a gas station. Counteracting the assumptions of the sighted and hearing world with humor and grace, Clark finds beauty in the revelations of communicating through touch: “All things living and dead cry out to me / when I touch them.”
+        A rare work of transformation and necessary discovery, How to Communicate is a brilliant debut that insists on the power of poetry.
+        A stunning debut from an award-winning DeafBlind poet, “How to Communicate is a masterpiece” (Kaveh Akbar).`,
+        genre: "Poetry",
+    },
     
     {
         id: 21,
@@ -313,6 +302,17 @@ export const recommendationsReadingList = [
         “This is a great YA contemporary (clean) romance that follows Maya as she navigates a new school and plans for her future. The addition of representation by a Deaf character was really beautifully done. Highly recommend for people looking for a sweet, engaging, and educational romantic read.” (YA and Kids Book Central).`,
         genre: "Young Adult Romance",
     },    
+    {
+        id: 8,
+        title: "Touch the Future: A Manifesto in Essays",
+        author: "John Lee Clark",
+        image: process.env.PUBLIC_URL + "/touch the future .jpg",
+        description: `Born Deaf into an ASL-speaking family and blind by adolescence, John Lee Clark learned to embrace the possibilities of his tactile world. He is on the frontlines of the Protactile movement, which gave birth to an unprecedented language and way of life based on physical connection.
+        In a series of paradigm-shifting essays, Clark reports on seismic developments within the DeafBlind community and challenges the limitations of sighted and hearing norms. In "Against Access," he interrogates the prevailing advocacy for "accessibility" that re-creates a shadow of a hearing-sighted experience, and in "Tactile Art," he describes his relationship to visual art and breathtaking encounters with tactile sculpture. He offers a brief history of the term "DeafBlind," distills societal discrimination against DeafBlind people into "Distantism," sheds light on the riches of online community, and advocates for "Co-Navigation," a new way of exploring the world together without a traditional guide.
+        Touch the Future brims with passion, energy, humor, and imagination as Clark takes us by the hand and welcomes us into the exciting landscape of Protactile communication. A distinct language of taps, signs, and reciprocal contact, Protactile emerged from the inadequacies of ASL―a visual language even when pressed into someone’s hand―with the power to upend centuries of DeafBlind isolation.
+        As warm and witty as he is radical and inspiring, Clark encourages us―disabled and non-disabled alike―to reject stigma and discover the ways we are connected. Touch the Future is a dynamic appeal to rethink the meanings of disability, access, language, and inclusivity, and to reach for a future we can create together.`,
+        genre: "Essays– written by Deafblind author",
+    },
     {
         id: 25,
         title: "True Biz",
