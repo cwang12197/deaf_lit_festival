@@ -5,8 +5,7 @@ const Schedule = () => {
     const schedule = [
         { time: "9:30", event: "Doors Open with Coffee!" },
         { time: "10:00-10:45", event: "Erin Moriarity" },
-        { time: "10:45-11:45", event: "Terry Galloway Performance" },
-        { time: "11:45-12:00", event: "Q&A with Erin and Terry" },
+        { time: "11:15-12:15", event: "Terry Galloway Performance" },
         { time: "12:30-1:00", event: "Lunch" },
         { time: "1:15-2:00", event: "Christopher Krentz" },
         { time: "2:30-3:30", event: "Kristen Harmon" },
