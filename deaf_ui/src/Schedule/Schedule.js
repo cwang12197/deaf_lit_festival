@@ -4,7 +4,7 @@ import './Schedule.css';
 const Schedule = () => {
     const schedule = [
         { time: "9:30", event: "Doors Open with Coffee!" },
-        { time: "10:00-10:45", event: "Erin Moriarity" },
+        { time: "10:00-10:45", event: "Erin Moriarty" },
         { time: "11:15-12:15", event: "Terry Galloway" },
         { time: "12:30-1:15", event: "Lunch (provided) - New Dominion will sell books" },
         { time: "1:15-2:00", event: "Christopher Krentz" },
