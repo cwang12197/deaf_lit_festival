@@ -56,7 +56,7 @@ function Home() {
             <div className="book-sell-info-section">
                 <p>New Dominion Bookshop will be selling books during meal breaks!
                     There is a limited supply of books, so all are welcome to bring their own books for signing.</p>
-                <p>To order a book from our reading list outside the event, please email: <b>staff@ndbookshop.com</b></p>
+                <p>To order a book from our reading list outside the event, please email: <u>staff@ndbookshop.com</u></p>
             </div>
 
         </div>
