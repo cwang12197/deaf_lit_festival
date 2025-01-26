@@ -62,9 +62,11 @@ const ContactUsSection = () => {
             {/* Logo Section */}
             <div className="partners-section">
                 <img src={process.env.PUBLIC_URL + "/echols_logo.png"} alt="Echols" className="partner-logo" />
-                <img src={process.env.PUBLIC_URL + "/uva_logo.png"} alt="University of Virginia" className="partner-logo" />
+                <img src={process.env.PUBLIC_URL + "/uva_office_logo.png"} alt="Office" className="partner-logo" />
                 <img src={process.env.PUBLIC_URL + "/newdominion_logo.jpeg"} alt="New Dominion" className="partner-logo" />
+                <img src={process.env.PUBLIC_URL + "/uva_dsi_logo.png"} alt="University of Virginia DSI" className="partner-logo" />
                 <img src={process.env.PUBLIC_URL + "/Deaf's Logo.png"} alt="DEAFS" className="partner-logo" />
+                <img src={process.env.PUBLIC_URL + "/uva_department_logo.png"} alt="UVA ASL and English Department" className="partner-logo" />
             </div>
 
             {/* Contact Us Section */}
