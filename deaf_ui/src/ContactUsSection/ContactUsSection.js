@@ -60,6 +60,7 @@ const ContactUsSection = () => {
     return (
         <>
             {/* Logo Section */}
+            <h1 className="sponsors-section-header">Sponsors</h1>
             <div className="partners-section">
                 <img src={process.env.PUBLIC_URL + "/echols_logo.png"} alt="Echols" className="partner-logo" />
                 <img src={process.env.PUBLIC_URL + "/uva_office_logo.png"} alt="Office" className="partner-logo" />
