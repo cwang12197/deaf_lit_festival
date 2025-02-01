@@ -14,7 +14,7 @@ const WhatWeCareAbout = () => {
                         <p className='description-event'>
                             <b>This is a free event! No registration needed!</b>
                         </p>
-                        <p className="description">Location is on UVA Grounds, room TBA. Building and parking options will be posted as soon as we know more.
+                        <p className="description">Location is on UVA Grounds at Nau Hall.
                         </p>
 
                     </div>
