@@ -3,6 +3,7 @@ import WhatWeCareAbout from './WhatWeCareAbout';
 import './About.css';
 import ASLPhotos from './ASLPhotos';
 import AboutTheHost from './AboutTheHost';
+import Directions from './Directions';
 
 const About = () => {
     return (
@@ -11,6 +12,7 @@ const About = () => {
             <WhatWeCareAbout />
             <ASLPhotos />
             <AboutTheHost />
+            <Directions />
         </div>
     );
 };

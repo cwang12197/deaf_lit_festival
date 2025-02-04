@@ -92,7 +92,7 @@ const ContactUsSection = () => {
                             </p>
                             <p>
                                 <strong>Address</strong><br />
-                                UVA Nau Hall<br />
+                                UVA Nau Hall 101<br />
                                 1540 Jefferson Park Ave, Charlottesville, VA 22903
                             </p>
                         </div>

@@ -1,0 +1,17 @@
+.directions-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e7e2de; 
+    padding: 40px;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.directions-img {
+    width: 50%;
+    height: 100%;
+}
