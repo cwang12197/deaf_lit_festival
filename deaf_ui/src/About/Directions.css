@@ -6,12 +6,12 @@
     align-items: center;
     gap: 20px;
     font-family: 'Crimson Pro', serif;
-    font-size: 3rem;
+    font-size: 1.2rem;
     text-align: center;
     justify-content: center;
 }
 
 .directions-img {
-    width: 50%;
+    width: 45%;
     height: 100%;
 }
